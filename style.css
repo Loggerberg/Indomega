@@ -1,0 +1,149 @@
+.peque {
+    font-size: 22px;
+    color: rgb(93, 116, 124);
+}
+
+.imagenes:hover {
+    background-color: rgb(240, 240, 240);
+    animation-name: miau;
+    animation-duration: 0.5s;
+    position: relative;
+    bottom: 5px;
+}
+
+@keyframes miau {
+    0% {
+        background-color: white;
+        bottom: 2.5px;
+    }
+
+    100% {
+        background-color: rgb(240, 240, 240);
+        bottom: 5px;
+    }
+}
+
+h1 {
+    font-family: 'MS UI Gothic';
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'MS UI Gothic';
+    font-size: 32px;
+    text-align: center;
+}
+
+.Fondo {
+    min-width: 680px;
+    max-width: 1600px;
+}
+
+.Barra {
+    background-color: black;
+    width: 100%;
+}
+
+th {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    height: 70px;
+    padding: 0px 15px;
+}
+
+table {
+    min-width: 680px;
+    max-width: 1600px;
+    padding: 10px 0px;
+}
+
+.imagenes {
+    width: 240px;
+    height: 240px;
+    padding: 20px 130px;
+}
+
+.Debajo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: gray;
+}
+
+th:hover {
+    animation-name: lightblue;
+    animation-duration: 0.5s;
+    background-color: lightblue;
+}
+
+@keyframes lightblue {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: lightblue;
+    }
+}
+
+td:hover {
+    animation-name: lightblue;
+    animation-duration: 0.5s;
+    background-color: lightblue;
+}
+
+@keyframes lightblue {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: lightblue;
+    }
+}
+
+.Contactos {
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.gmail {
+    width: 240px;
+    height: 180px;
+}
+
+.telefono {
+    width: 240px;
+    height: 240px;
+}
+
+.reporte {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    background-color: rgb(192, 47, 47);
+    color: white;
+    margin: 0px 50px;
+}
+
+.Separadores {
+    border: solid 1px gray;
+}
+
+.Separasolo {
+    border: solid 1px gray;
+}
